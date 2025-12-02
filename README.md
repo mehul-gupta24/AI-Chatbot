@@ -1,3 +1,4 @@
+https://turquoise-flying-firefly.app.genez.io/
 # YouTube Video AI AGENT 
 
 YtChat lets you chat with an AI about any YouTube video. Just paste a YouTube video URL and your question—the app will analyze the video for you. When you submit a URL, the backend scrapes the transcript using Bright Data and stores transcript chunks in NeonDB (PostgreSQL). If the video was already scraped, it fetches the transcript directly from NeonDB for faster responses. It uses two Gemini AIs: one for analyzing video transcripts, and one for summarizing answers for users. The frontend is built with React and Vite.
